@@ -1,9 +1,9 @@
 from pyswip import Prolog
 
-if __name__ == '__main__':
+def consultKB():
 
     prolog = Prolog()
-    prolog.consult('./crop.pl')
+    prolog.consult('kb/crop.pl')
     print(
         'Scegli una delle seguenti opzioni per interrogare la base di conoscenza(inserisci il numero corrispondente)\n')
     print('1. coltura consigliata in base a ettari di terreno disponibili, mese di semina, budget')
