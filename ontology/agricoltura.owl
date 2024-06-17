@@ -1,0 +1,544 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/readytouse/ontologies/2024/5/agriculture"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/readytouse/ontologies/2024/5/agriculture">
+    <Prefix name="" IRI="http://www.semanticweb.org/readytouse/ontologies/2024/5/agriculture"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="it" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">questa è un ontologia sulla coltivazione agricola</Literal>
+    </Annotation>
+    <Declaration>
+        <NamedIndividual IRI="#fattore_n3"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Phosphorus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fattore_n1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nitrogen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#crop1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crop"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cropName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEnvironmentalFactor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#crop5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#crop3"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Humidity_percentage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Temperature_Celsius°"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fattore_a4"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pH_Value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fattore_a2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fattore_n4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fattore_n2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Potassium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#crop4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#crop2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fattori_ambientali"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNutritionalFactor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fattore_a5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fattore_a3"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CropID"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fattore_a1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Rainfall_mm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fattori_nutrizionali"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fattore_n5"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Crop"/>
+        <NamedIndividual IRI="#crop1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crop"/>
+        <NamedIndividual IRI="#crop2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crop"/>
+        <NamedIndividual IRI="#crop3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crop"/>
+        <NamedIndividual IRI="#crop4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crop"/>
+        <NamedIndividual IRI="#crop5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fattori_ambientali"/>
+        <NamedIndividual IRI="#fattore_a1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fattori_ambientali"/>
+        <NamedIndividual IRI="#fattore_a2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fattori_ambientali"/>
+        <NamedIndividual IRI="#fattore_a3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fattori_ambientali"/>
+        <NamedIndividual IRI="#fattore_a4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fattori_ambientali"/>
+        <NamedIndividual IRI="#fattore_a5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fattori_nutrizionali"/>
+        <NamedIndividual IRI="#fattore_n1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fattori_nutrizionali"/>
+        <NamedIndividual IRI="#fattore_n2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fattori_nutrizionali"/>
+        <NamedIndividual IRI="#fattore_n3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fattori_nutrizionali"/>
+        <NamedIndividual IRI="#fattore_n4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fattori_nutrizionali"/>
+        <NamedIndividual IRI="#fattore_n5"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEnvironmentalFactor"/>
+        <NamedIndividual IRI="#crop1"/>
+        <NamedIndividual IRI="#fattore_a1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutritionalFactor"/>
+        <NamedIndividual IRI="#crop1"/>
+        <NamedIndividual IRI="#fattore_n1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEnvironmentalFactor"/>
+        <NamedIndividual IRI="#crop2"/>
+        <NamedIndividual IRI="#fattore_a2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutritionalFactor"/>
+        <NamedIndividual IRI="#crop2"/>
+        <NamedIndividual IRI="#fattore_n2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEnvironmentalFactor"/>
+        <NamedIndividual IRI="#crop3"/>
+        <NamedIndividual IRI="#fattore_a3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutritionalFactor"/>
+        <NamedIndividual IRI="#crop3"/>
+        <NamedIndividual IRI="#fattore_n3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEnvironmentalFactor"/>
+        <NamedIndividual IRI="#crop4"/>
+        <NamedIndividual IRI="#fattore_a4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutritionalFactor"/>
+        <NamedIndividual IRI="#crop4"/>
+        <NamedIndividual IRI="#fattore_n4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEnvironmentalFactor"/>
+        <NamedIndividual IRI="#crop5"/>
+        <NamedIndividual IRI="#fattore_a5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutritionalFactor"/>
+        <NamedIndividual IRI="#crop5"/>
+        <NamedIndividual IRI="#fattore_n5"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CropID"/>
+        <NamedIndividual IRI="#crop1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cropName"/>
+        <NamedIndividual IRI="#crop1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Rice</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CropID"/>
+        <NamedIndividual IRI="#crop2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cropName"/>
+        <NamedIndividual IRI="#crop2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maize</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CropID"/>
+        <NamedIndividual IRI="#crop3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cropName"/>
+        <NamedIndividual IRI="#crop3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Chcikpea</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CropID"/>
+        <NamedIndividual IRI="#crop4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cropName"/>
+        <NamedIndividual IRI="#crop4"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PigeonPeas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CropID"/>
+        <NamedIndividual IRI="#crop5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cropName"/>
+        <NamedIndividual IRI="#crop5"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MothBeans</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Humidity_percentage"/>
+        <NamedIndividual IRI="#fattore_a1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">82</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rainfall_mm"/>
+        <NamedIndividual IRI="#fattore_a1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">202.93</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Temperature_Celsius°"/>
+        <NamedIndividual IRI="#fattore_a1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">20.87</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Humidity_percentage"/>
+        <NamedIndividual IRI="#fattore_a2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">63.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rainfall_mm"/>
+        <NamedIndividual IRI="#fattore_a2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">87.75</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Temperature_Celsius°"/>
+        <NamedIndividual IRI="#fattore_a2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">22.61</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Humidity_percentage"/>
+        <NamedIndividual IRI="#fattore_a3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rainfall_mm"/>
+        <NamedIndividual IRI="#fattore_a3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">88.55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Temperature_Celsius°"/>
+        <NamedIndividual IRI="#fattore_a3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">17.02</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Humidity_percentage"/>
+        <NamedIndividual IRI="#fattore_a4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">56</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rainfall_mm"/>
+        <NamedIndividual IRI="#fattore_a4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">134.85</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Temperature_Celsius°"/>
+        <NamedIndividual IRI="#fattore_a4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">36</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Humidity_percentage"/>
+        <NamedIndividual IRI="#fattore_a5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">64.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rainfall_mm"/>
+        <NamedIndividual IRI="#fattore_a5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">32.67</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Temperature_Celsius°"/>
+        <NamedIndividual IRI="#fattore_a5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">27.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nitrogen"/>
+        <NamedIndividual IRI="#fattore_n1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Phosphorus"/>
+        <NamedIndividual IRI="#fattore_n1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">42</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Potassium"/>
+        <NamedIndividual IRI="#fattore_n1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pH_Value"/>
+        <NamedIndividual IRI="#fattore_n1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6.502</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nitrogen"/>
+        <NamedIndividual IRI="#fattore_n2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">71</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Phosphorus"/>
+        <NamedIndividual IRI="#fattore_n2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">54</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Potassium"/>
+        <NamedIndividual IRI="#fattore_n2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pH_Value"/>
+        <NamedIndividual IRI="#fattore_n2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.74</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nitrogen"/>
+        <NamedIndividual IRI="#fattore_n3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Phosphorus"/>
+        <NamedIndividual IRI="#fattore_n3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">72</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Potassium"/>
+        <NamedIndividual IRI="#fattore_n3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">77</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pH_Value"/>
+        <NamedIndividual IRI="#fattore_n3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7.48</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nitrogen"/>
+        <NamedIndividual IRI="#fattore_n4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Phosphorus"/>
+        <NamedIndividual IRI="#fattore_n4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">72</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Potassium"/>
+        <NamedIndividual IRI="#fattore_n4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pH_Value"/>
+        <NamedIndividual IRI="#fattore_n4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7.31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nitrogen"/>
+        <NamedIndividual IRI="#fattore_n5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Phosphorus"/>
+        <NamedIndividual IRI="#fattore_n5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">49</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Potassium"/>
+        <NamedIndividual IRI="#fattore_n5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pH_Value"/>
+        <NamedIndividual IRI="#fattore_n5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.7</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEnvironmentalFactor"/>
+        <Class IRI="#Crop"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNutritionalFactor"/>
+        <Class IRI="#Crop"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEnvironmentalFactor"/>
+        <Class IRI="#Fattori_ambientali"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNutritionalFactor"/>
+        <Class IRI="#Fattori_nutrizionali"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CropID"/>
+        <Class IRI="#Crop"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Humidity_percentage"/>
+        <Class IRI="#Fattori_ambientali"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nitrogen"/>
+        <Class IRI="#Fattori_nutrizionali"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Phosphorus"/>
+        <Class IRI="#Fattori_nutrizionali"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Potassium"/>
+        <Class IRI="#Fattori_nutrizionali"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Rainfall_mm"/>
+        <Class IRI="#Fattori_ambientali"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cropName"/>
+        <Class IRI="#Crop"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#pH_Value"/>
+        <Class IRI="#Fattori_ambientali"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Temperature_Celsius°"/>
+        <Class IRI="#Fattori_ambientali"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#CropID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Humidity_percentage"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nitrogen"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Phosphorus"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Potassium"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Rainfall_mm"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cropName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#pH_Value"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Temperature_Celsius°"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasEnvironmentalFactor</IRI>
+        <Literal xml:lang="it" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Questa proprietà indica che una coltura ha uno o più fattori ambientali associati.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasNutritionalFactor</IRI>
+        <Literal xml:lang="it" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Questa proprietà indica che una coltura ha uno o più fattori nutrizionali associati.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
