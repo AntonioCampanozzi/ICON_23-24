@@ -1,6 +1,5 @@
 from pyswip import Prolog
 
-
 def consultKB():
     prolog = Prolog()
     prolog.consult('kb/crop.pl')
@@ -73,9 +72,3 @@ def consultKB():
                 print('nessuna coltura simile trovata, probabilmente l\'input inserito è errato o assente?')
             else:
                 print(f'la coltura più simile a {crop} è: {r[0].get('SimilarCrop')}')
-
-
-if __name__ == '__main__':
-    prolog = Prolog()
-    prolog.consult('crop.pl')
-    consultKB()
