@@ -46,7 +46,7 @@ df['Crop']=labelencoder.fit_transform(df['Crop'])
 
 #calcolo della matrice di correlazione e seguente heatmap
 
-corr_matr=df.corr()
+corr_matr=df[columns_to_scale].corr()
 plt.figure(figsize=(10,8))
 plt.title('heatmap su dataset processato')
 sns.heatmap(corr_matr, cmap='coolwarm', annot=True)
