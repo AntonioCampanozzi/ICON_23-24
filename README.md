@@ -60,7 +60,7 @@ verranno mostrate tre opzioni:
 - predire una coltura in base alle caratteristiche inserite
 - interrogare la knowledge base prolog
 
-L'ontologia consultata è **agricoltura.owl** presente nella directory *ontology*, per le predizioni viene utilizzata la random forest presente in *trained models*, la knowledge base è **crop.py** presente in *kb*.
+L'ontologia consultata è **agricoltura.owl** presente nella directory *ontology*, per le predizioni viene utilizzata la random forest presente in *trained models*, la knowledge base è **crop.pl** presente in *kb*.
 
 
 
